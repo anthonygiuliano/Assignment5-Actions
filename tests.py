@@ -9,7 +9,7 @@ class TestCase(unittest.TestCase):
 
     def test2(self):
         expected = 'failure'
-        self.assertEqual(expected, task.firstrun())
+        self.assertNotEqual(expected, task.firstrun())
 
     def test_area_circle(self):
         pass
