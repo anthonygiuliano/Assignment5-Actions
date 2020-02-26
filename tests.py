@@ -11,6 +11,15 @@ class TestCase(unittest.TestCase):
         expected = 'failure'
         self.assertEqual(expected, task.firstrun())
 
+    def test_area_circle(self):
+        pass
+
+    def test_first_last(self):
+        pass
+
+    def test_date_diff(self):
+        pass
+
 
 if __name__ == '__main__':
     unittest.main()
