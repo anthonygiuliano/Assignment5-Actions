@@ -11,7 +11,7 @@ def area_circle(radius):
 
 
 def first_last(list):
-    # return (list[0], list[-1])
+    return (list[0], list[-1])
     pass
 
 
