@@ -1,4 +1,5 @@
 import unittest
+import math
 import task
 
 
@@ -12,7 +13,7 @@ class TestCase(unittest.TestCase):
         self.assertNotEqual(expected, task.firstrun())
 
     def test_area_circle(self):
-        pass
+        self.assertEqual(math.pi, task.area_circle(1))
 
     def test_first_last(self):
         pass
