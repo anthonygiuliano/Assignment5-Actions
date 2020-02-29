@@ -1,5 +1,6 @@
 import unittest
 import math
+import datetime
 import task
 
 
@@ -19,8 +20,10 @@ class TestCase(unittest.TestCase):
         list = [1, 2, 3, 4, 5]
         self.assertEqual((1, 5), task.first_last(list))
 
-    # def test_date_diff(self):
-    #     pass
+    def test_date_diff(self):
+        d1 = datetime.date.today()
+        d2 = datetime.date.today()
+        self.assertEqual(0, task.date_diff(d1, d2))
 
 
 if __name__ == '__main__':
