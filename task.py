@@ -15,5 +15,5 @@ def first_last(list):
 
 
 def date_diff(date1, date2):
-    return date1 - date2
+    return abs(date1 - date2)
     pass
